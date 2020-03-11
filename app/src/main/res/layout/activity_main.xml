@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp"
+  tools:context=".MainActivity">
+
+  <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/linearLayout" />
+
+  <LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/image_add_image_message"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:src="@drawable/ic_add_black_24dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+      android:id="@+id/edit_message"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/button_send"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom"
+      android:enabled="false"
+      android:text="@string/send" />
+  </LinearLayout>
+
+  <androidx.core.widget.ContentLoadingProgressBar
+    android:id="@+id/progressBar"
+    style="?android:attr/progressBarStyleLarge"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true" />
+
+</RelativeLayout>

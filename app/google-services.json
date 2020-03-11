@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "588131053144",
+    "firebase_url": "https://fir-friendlychat-3774.firebaseio.com",
+    "project_id": "fir-friendlychat-3774",
+    "storage_bucket": "fir-friendlychat-3774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588131053144:android:b4c4f3ca30902bf73e242d",
+        "android_client_info": {
+          "package_name": "id.deuboe.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588131053144-jj1h07gslqi2lh4rou1uemdh4jgthfq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVHGDDj68k1D58ymzJbBIWVIxy63p8lpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588131053144-jj1h07gslqi2lh4rou1uemdh4jgthfq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
