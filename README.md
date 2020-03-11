@@ -1,0 +1,2 @@
+# FriendlyChat
+Friendly Chat Firebase
